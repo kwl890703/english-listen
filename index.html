@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>영어 듣기</title>
+<style>
+  :root { --bg:#fafaf7; --fg:#1d1d1b; --sub:#6b6b66; --line:#e4e4de; --hi:#fff1c2; --accent:#2f6fde; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141414; --fg:#ececea; --sub:#9a9a95; --line:#2a2a28; --hi:#3a3216; --accent:#6d9bf0; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font: 16px/1.45 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+         padding-bottom: 120px; }
+  header { padding: 16px; }
+  h1 { font-size: 20px; margin: 0; }
+  #report { margin-top: 8px; font-size: 14px; color: var(--sub); }
+  #report.ok { color: #1e8e3e; } #report.bad { color: #d93025; }
+  h2 { font-size: 15px; color: var(--sub); margin: 20px 16px 6px; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { padding: 12px 16px; border-bottom: 1px solid var(--line); cursor: pointer; }
+  li.now { background: var(--hi); }
+  .en { font-size: 17px; font-weight: 600; }
+  .ko { color: var(--sub); font-size: 15px; }
+  footer { position: fixed; left:0; right:0; bottom:0; background:var(--bg); border-top:1px solid var(--line);
+           padding: 12px 16px calc(12px + env(safe-area-inset-bottom)); display:flex; gap:10px; align-items:center; }
+  button { font: inherit; border: 1px solid var(--line); background: transparent; color: var(--fg);
+           border-radius: 10px; padding: 10px 14px; }
+  #play { background: var(--accent); color: #fff; border: none; min-width: 84px; }
+  #now { flex: 1; font-size: 13px; color: var(--sub); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+</style>
+</head>
+<body>
+<header>
+  <h1>영어 듣기</h1>
+  <div id="report">재생 후 다른 앱으로 갔다가 돌아오면, 그동안 몇 초 재생됐는지 여기에 표시됩니다.</div>
+</header>
+<main id="list"></main>
+<footer>
+  <button id="play">▶ 재생</button>
+  <button id="speed">1.0×</button>
+  <div id="now"></div>
+</footer>
+<audio id="audio" preload="auto"></audio>
+
+<script>
+const SPEEDS = [0.8, 0.9, 1.0, 1.1, 1.25];
+const STORAGE_KEY = "english-listen-position";
+
+const audio = document.getElementById("audio");
+const playBtn = document.getElementById("play");
+const speedBtn = document.getElementById("speed");
+const nowEl = document.getElementById("now");
+const report = document.getElementById("report");
+
+let situations = [];
+let current = 0;          // 지금 상황 번호
+let speedIndex = 2;
+let lastSentenceId = null;
+
+function loadPosition() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || null; } catch { return null; }
+}
+function savePosition() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({ situation: situations[current].id, time: audio.currentTime }));
+  } catch { /* 저장 못 해도 재생은 된다 */ }
+}
+
+function render() {
+  const list = document.getElementById("list");
+  list.replaceChildren(...situations.map((sit, si) => {
+    const section = document.createElement("section");
+    const h2 = document.createElement("h2");
+    h2.textContent = sit.title;
+    const ul = document.createElement("ul");
+    sit.sentences.forEach(s => {
+      const li = document.createElement("li");
+      li.id = s.id;
+      const en = document.createElement("div"); en.className = "en"; en.textContent = s.en;
+      const ko = document.createElement("div"); ko.className = "ko"; ko.textContent = s.ko;
+      li.append(en, ko);
+      li.addEventListener("click", () => jump(si, s.start));
+      ul.append(li);
+    });
+    section.append(h2, ul);
+    return section;
+  }));
+}
+
+function selectSituation(index, time) {
+  current = index;
+  audio.src = situations[index].audio;
+  audio.playbackRate = SPEEDS[speedIndex];
+  audio.addEventListener("loadedmetadata", () => { audio.currentTime = time; }, { once: true });
+}
+
+function jump(index, time) {
+  if (index !== current) selectSituation(index, time);
+  else audio.currentTime = time;
+  audio.play();
+}
+
+function sentenceAt(time) {
+  const list = situations[current].sentences;
+  return list.find(s => time >= s.start && time < s.end) || list[list.length - 1];
+}
+
+function highlight() {
+  const s = sentenceAt(audio.currentTime);
+  if (s.id === lastSentenceId) return;
+  document.getElementById(lastSentenceId)?.classList.remove("now");
+  const li = document.getElementById(s.id);
+  li.classList.add("now");
+  if (!document.hidden) li.scrollIntoView({ block: "center", behavior: "smooth" });
+  lastSentenceId = s.id;
+  nowEl.textContent = s.en;
+  if ("mediaSession" in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({ title: s.en, artist: s.ko, album: situations[current].title });
+  }
+  savePosition();
+}
+
+// 계측: 화면을 떠난 동안 실제로 몇 초 재생됐는지
+let hiddenAt = null;
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) {
+    hiddenAt = { wall: Date.now(), audio: audio.currentTime, situation: current, playing: !audio.paused };
+    return;
+  }
+  if (!hiddenAt || !hiddenAt.playing) return;
+  const away = (Date.now() - hiddenAt.wall) / 1000;
+  const played = current === hiddenAt.situation ? audio.currentTime - hiddenAt.audio : null;
+  const playedText = played === null ? "다음 상황으로 넘어감" : `${played.toFixed(0)}초 재생`;
+  const ok = played === null || played >= away * SPEEDS[speedIndex] * 0.9;
+  report.textContent = `다른 앱에 ${away.toFixed(0)}초 있는 동안 ${playedText} → ${ok ? "계속 재생됨 ✅" : "멈췄음 ❌"}`;
+  report.className = ok ? "ok" : "bad";
+  hiddenAt = null;
+});
+
+playBtn.addEventListener("click", () => audio.paused ? audio.play() : audio.pause());
+speedBtn.addEventListener("click", () => {
+  speedIndex = (speedIndex + 1) % SPEEDS.length;
+  audio.playbackRate = SPEEDS[speedIndex];
+  speedBtn.textContent = SPEEDS[speedIndex].toFixed(SPEEDS[speedIndex] === 1.25 ? 2 : 1) + "×";
+});
+audio.addEventListener("play", () => { playBtn.textContent = "❚❚ 멈춤"; });
+audio.addEventListener("pause", () => { playBtn.textContent = "▶ 재생"; savePosition(); });
+audio.addEventListener("timeupdate", highlight);
+audio.addEventListener("ended", () => {
+  if (current + 1 < situations.length) { selectSituation(current + 1, 0); audio.play(); }
+});
+
+fetch("situations.json")
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(data => {
+    situations = data.situations;
+    render();
+    const saved = loadPosition();
+    const found = situations.findIndex(s => s.id === saved?.situation);
+    selectSituation(Math.max(0, found), found >= 0 ? saved.time : 0);
+  })
+  .catch(err => { report.textContent = "문장 목록을 못 불러왔습니다: " + err.message; report.className = "bad"; });
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+[
+  {
+    "label": "영어 · Kore",
+    "file": "samples/en-US-Kore.mp3"
+  },
+  {
+    "label": "영어 · Aoede",
+    "file": "samples/en-US-Aoede.mp3"
+  },
+  {
+    "label": "영어 · Puck",
+    "file": "samples/en-US-Puck.mp3"
+  },
+  {
+    "label": "영어 · Charon",
+    "file": "samples/en-US-Charon.mp3"
+  },
+  {
+    "label": "한국어 · Kore",
+    "file": "samples/ko-KR-Kore.mp3"
+  },
+  {
+    "label": "한국어 · Charon",
+    "file": "samples/ko-KR-Charon.mp3"
+  },
+  {
+    "label": "영어 · 맥 Samantha (지금 쓰는 것)",
+    "file": "samples/mac-en.mp3"
+  },
+  {
+    "label": "한국어 · 맥 Yuna (지금 쓰는 것)",
+    "file": "samples/mac-ko.mp3"
+  }
+]

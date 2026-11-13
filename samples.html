@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>목소리 비교</title>
+<style>
+  :root { --bg:#fafaf7; --fg:#1d1d1b; --sub:#6b6b66; --line:#e4e4de; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#ececea; --sub:#9a9a95; --line:#2a2a28; } }
+  body { margin:0; padding:16px; background:var(--bg); color:var(--fg);
+         font:16px/1.45 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif; }
+  h1 { font-size:20px; margin:0 0 4px; }
+  p { color:var(--sub); font-size:14px; margin:0 0 16px; }
+  .item { padding:12px 0; border-bottom:1px solid var(--line); }
+  .label { font-weight:600; margin-bottom:6px; }
+  audio { width:100%; }
+</style>
+</head>
+<body>
+<h1>목소리 비교</h1>
+<p>같은 문장을 목소리마다 읽었습니다. 마음에 드는 영어 하나, 한국어 하나를 골라 주세요.</p>
+<div id="list"></div>
+<script>
+fetch("samples.json")
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(samples => {
+    document.getElementById("list").replaceChildren(...samples.map(s => {
+      const item = document.createElement("div"); item.className = "item";
+      const label = document.createElement("div"); label.className = "label"; label.textContent = s.label;
+      const audio = document.createElement("audio"); audio.controls = true; audio.preload = "none"; audio.src = s.file;
+      audio.addEventListener("play", () => document.querySelectorAll("audio").forEach(a => { if (a !== audio) a.pause(); }));
+      item.append(label, audio);
+      return item;
+    }));
+  })
+  .catch(err => { document.getElementById("list").textContent = "목록을 못 불러왔습니다: " + err.message; });
+</script>
+</body>
+</html>

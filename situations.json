@@ -1,0 +1,1430 @@
+{
+  "situations": [
+    {
+      "id": "cafe",
+      "title": "카페에서",
+      "audio": "audio/cafe.mp3",
+      "duration": 440.92,
+      "sentences": [
+        {
+          "id": "cafe-001",
+          "ko": "아이스 아메리카노 한 잔 주세요.",
+          "en": "Can I get an iced Americano?",
+          "start": 0.0,
+          "end": 12.72
+        },
+        {
+          "id": "cafe-002",
+          "ko": "여기서 드시고 가세요, 아니면 가져가세요?",
+          "en": "For here or to go?",
+          "start": 12.72,
+          "end": 24.6
+        },
+        {
+          "id": "cafe-003",
+          "ko": "가져갈게요.",
+          "en": "To go, please.",
+          "start": 24.6,
+          "end": 34.72
+        },
+        {
+          "id": "cafe-004",
+          "ko": "얼음은 조금만 넣어 주세요.",
+          "en": "Light ice, please.",
+          "start": 34.72,
+          "end": 46.4
+        },
+        {
+          "id": "cafe-005",
+          "ko": "카드로 계산할게요.",
+          "en": "I'll pay by card.",
+          "start": 46.4,
+          "end": 56.52
+        },
+        {
+          "id": "cafe-006",
+          "ko": "여기서 먹고 갈게요.",
+          "en": "For here, please.",
+          "start": 56.52,
+          "end": 67.04
+        },
+        {
+          "id": "cafe-007",
+          "ko": "사이즈는 뭘로 드릴까요?",
+          "en": "What size would you like?",
+          "start": 67.04,
+          "end": 78.36
+        },
+        {
+          "id": "cafe-008",
+          "ko": "제일 작은 걸로 주세요.",
+          "en": "I'll get a small.",
+          "start": 78.36,
+          "end": 89.04
+        },
+        {
+          "id": "cafe-009",
+          "ko": "귀리 우유로 바꿀 수 있나요?",
+          "en": "Can I get that with oat milk?",
+          "start": 89.04,
+          "end": 99.64
+        },
+        {
+          "id": "cafe-010",
+          "ko": "샷 하나 추가해 주세요.",
+          "en": "Can I add an extra shot?",
+          "start": 99.64,
+          "end": 111.52
+        },
+        {
+          "id": "cafe-011",
+          "ko": "덜 달게 해 주실 수 있나요?",
+          "en": "Could you make it less sweet?",
+          "start": 111.52,
+          "end": 122.2
+        },
+        {
+          "id": "cafe-012",
+          "ko": "추천해 주실 만한 거 있어요?",
+          "en": "What would you recommend?",
+          "start": 122.2,
+          "end": 133.28
+        },
+        {
+          "id": "cafe-013",
+          "ko": "디카페인 있나요?",
+          "en": "Do you have decaf?",
+          "start": 133.28,
+          "end": 143.64
+        },
+        {
+          "id": "cafe-014",
+          "ko": "그걸로 할게요.",
+          "en": "I'll have that.",
+          "start": 143.64,
+          "end": 154.32
+        },
+        {
+          "id": "cafe-015",
+          "ko": "그게 다예요.",
+          "en": "That's it.",
+          "start": 154.32,
+          "end": 164.28
+        },
+        {
+          "id": "cafe-016",
+          "ko": "주문하시는 분 성함이 어떻게 되세요?",
+          "en": "Can I get a name for the order?",
+          "start": 164.28,
+          "end": 176.6
+        },
+        {
+          "id": "cafe-017",
+          "ko": "영수증 드릴까요?",
+          "en": "Do you want the receipt?",
+          "start": 176.6,
+          "end": 187.8
+        },
+        {
+          "id": "cafe-018",
+          "ko": "아니요, 괜찮아요.",
+          "en": "No, I'm good.",
+          "start": 187.8,
+          "end": 196.84
+        },
+        {
+          "id": "cafe-019",
+          "ko": "와이파이 비밀번호가 뭐예요?",
+          "en": "What's the Wi-Fi password?",
+          "start": 196.84,
+          "end": 208.64
+        },
+        {
+          "id": "cafe-020",
+          "ko": "화장실이 어디예요?",
+          "en": "Where's the restroom?",
+          "start": 208.64,
+          "end": 218.24
+        },
+        {
+          "id": "cafe-021",
+          "ko": "여기 자리 있어요?",
+          "en": "Is this seat taken?",
+          "start": 218.24,
+          "end": 228.36
+        },
+        {
+          "id": "cafe-022",
+          "ko": "콘센트 있는 자리 있어요?",
+          "en": "Is there a seat with an outlet?",
+          "start": 228.36,
+          "end": 239.96
+        },
+        {
+          "id": "cafe-023",
+          "ko": "주문하신 거 나왔습니다.",
+          "en": "Your order's ready.",
+          "start": 239.96,
+          "end": 250.68
+        },
+        {
+          "id": "cafe-024",
+          "ko": "이거 제가 주문한 게 아닌 것 같아요.",
+          "en": "I don't think this is what I ordered.",
+          "start": 250.68,
+          "end": 263.88
+        },
+        {
+          "id": "cafe-025",
+          "ko": "저 따뜻한 걸로 주문했는데요.",
+          "en": "Sorry, I actually ordered it hot.",
+          "start": 263.88,
+          "end": 275.32
+        },
+        {
+          "id": "cafe-026",
+          "ko": "빨대 어디 있어요?",
+          "en": "Where are the straws?",
+          "start": 275.32,
+          "end": 286.64
+        },
+        {
+          "id": "cafe-027",
+          "ko": "컵 홀더 하나 주시겠어요?",
+          "en": "Could I get a sleeve?",
+          "start": 286.64,
+          "end": 296.32
+        },
+        {
+          "id": "cafe-028",
+          "ko": "뚜껑 하나 주시겠어요?",
+          "en": "Could I get a lid?",
+          "start": 296.32,
+          "end": 306.8
+        },
+        {
+          "id": "cafe-029",
+          "ko": "이 케이크도 하나 주세요.",
+          "en": "And one of these cakes, please.",
+          "start": 306.8,
+          "end": 319.72
+        },
+        {
+          "id": "cafe-030",
+          "ko": "데워 드릴까요?",
+          "en": "Would you like it warmed up?",
+          "start": 319.72,
+          "end": 329.84
+        },
+        {
+          "id": "cafe-031",
+          "ko": "네, 데워 주세요.",
+          "en": "Yes, please.",
+          "start": 329.84,
+          "end": 341.28
+        },
+        {
+          "id": "cafe-032",
+          "ko": "몇 시에 문 닫아요?",
+          "en": "What time do you close?",
+          "start": 341.28,
+          "end": 352.6
+        },
+        {
+          "id": "cafe-033",
+          "ko": "적립 카드 있으세요?",
+          "en": "Do you have a rewards card?",
+          "start": 352.6,
+          "end": 364.68
+        },
+        {
+          "id": "cafe-034",
+          "ko": "앱으로 미리 주문했어요.",
+          "en": "I placed a mobile order.",
+          "start": 364.68,
+          "end": 376.56
+        },
+        {
+          "id": "cafe-035",
+          "ko": "잠깐만요, 아직 고르는 중이에요.",
+          "en": "Sorry, I'm still deciding.",
+          "start": 376.56,
+          "end": 387.72
+        },
+        {
+          "id": "cafe-036",
+          "ko": "같은 걸로 두 잔 주세요.",
+          "en": "Make that two, please.",
+          "start": 387.72,
+          "end": 399.56
+        },
+        {
+          "id": "cafe-037",
+          "ko": "리필 되나요?",
+          "en": "Do you do refills?",
+          "start": 399.56,
+          "end": 410.36
+        },
+        {
+          "id": "cafe-038",
+          "ko": "머그잔에 주실 수 있나요?",
+          "en": "Could I get it in a mug?",
+          "start": 410.36,
+          "end": 421.08
+        },
+        {
+          "id": "cafe-039",
+          "ko": "이거 진짜 맛있네요.",
+          "en": "This is really good.",
+          "start": 421.08,
+          "end": 432.16
+        },
+        {
+          "id": "cafe-040",
+          "ko": "좋은 하루 보내세요.",
+          "en": "Have a good one!",
+          "start": 432.16,
+          "end": 440.92
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "title": "식당에서",
+      "audio": "audio/restaurant.mp3",
+      "duration": 439.96,
+      "sentences": [
+        {
+          "id": "restaurant-001",
+          "ko": "두 명이요.",
+          "en": "Table for two, please.",
+          "start": 0.0,
+          "end": 11.0
+        },
+        {
+          "id": "restaurant-002",
+          "ko": "김으로 예약했어요.",
+          "en": "I have a reservation under Kim.",
+          "start": 11.0,
+          "end": 23.04
+        },
+        {
+          "id": "restaurant-003",
+          "ko": "얼마나 기다려야 해요?",
+          "en": "How long's the wait?",
+          "start": 23.04,
+          "end": 33.6
+        },
+        {
+          "id": "restaurant-004",
+          "ko": "창가 자리에 앉아도 될까요?",
+          "en": "Could we sit by the window?",
+          "start": 33.6,
+          "end": 44.8
+        },
+        {
+          "id": "restaurant-005",
+          "ko": "메뉴판 좀 주시겠어요?",
+          "en": "Could we see a menu?",
+          "start": 44.8,
+          "end": 55.96
+        },
+        {
+          "id": "restaurant-006",
+          "ko": "주문하시겠어요?",
+          "en": "Are you ready to order?",
+          "start": 55.96,
+          "end": 66.0
+        },
+        {
+          "id": "restaurant-007",
+          "ko": "조금만 더 있다가 주문할게요.",
+          "en": "Could we have a few more minutes?",
+          "start": 66.0,
+          "end": 77.92
+        },
+        {
+          "id": "restaurant-008",
+          "ko": "여기서 제일 잘 나가는 게 뭐예요?",
+          "en": "What's your most popular dish?",
+          "start": 77.92,
+          "end": 90.84
+        },
+        {
+          "id": "restaurant-009",
+          "ko": "오늘의 추천 메뉴 있어요?",
+          "en": "Do you have any specials today?",
+          "start": 90.84,
+          "end": 103.32
+        },
+        {
+          "id": "restaurant-010",
+          "ko": "이거 매워요?",
+          "en": "Is this spicy?",
+          "start": 103.32,
+          "end": 113.2
+        },
+        {
+          "id": "restaurant-011",
+          "ko": "이거 양이 많아요?",
+          "en": "How big is this portion?",
+          "start": 113.2,
+          "end": 125.12
+        },
+        {
+          "id": "restaurant-012",
+          "ko": "저는 이걸로 할게요.",
+          "en": "I'll go with this.",
+          "start": 125.12,
+          "end": 136.12
+        },
+        {
+          "id": "restaurant-013",
+          "ko": "저도 같은 걸로 주세요.",
+          "en": "I'll have the same.",
+          "start": 136.12,
+          "end": 146.24
+        },
+        {
+          "id": "restaurant-014",
+          "ko": "양파 빼 주세요.",
+          "en": "Could I get it without onions?",
+          "start": 146.24,
+          "end": 157.92
+        },
+        {
+          "id": "restaurant-015",
+          "ko": "저 견과류 알레르기 있어요.",
+          "en": "I'm allergic to nuts.",
+          "start": 157.92,
+          "end": 168.44
+        },
+        {
+          "id": "restaurant-016",
+          "ko": "스테이크 굽기는 어떻게 해 드릴까요?",
+          "en": "How would you like your steak?",
+          "start": 168.44,
+          "end": 179.32
+        },
+        {
+          "id": "restaurant-017",
+          "ko": "미디엄으로 해 주세요.",
+          "en": "Medium, please.",
+          "start": 179.32,
+          "end": 189.2
+        },
+        {
+          "id": "restaurant-018",
+          "ko": "음료는 뭘로 하시겠어요?",
+          "en": "Anything to drink?",
+          "start": 189.2,
+          "end": 199.64
+        },
+        {
+          "id": "restaurant-019",
+          "ko": "일단은 괜찮아요.",
+          "en": "I'm good for now.",
+          "start": 199.64,
+          "end": 209.68
+        },
+        {
+          "id": "restaurant-020",
+          "ko": "물 좀 주시겠어요?",
+          "en": "Could we get some water?",
+          "start": 209.68,
+          "end": 220.88
+        },
+        {
+          "id": "restaurant-021",
+          "ko": "그냥 물이면 돼요.",
+          "en": "Just tap water is fine.",
+          "start": 220.88,
+          "end": 231.84
+        },
+        {
+          "id": "restaurant-022",
+          "ko": "음식 괜찮으세요?",
+          "en": "How is everything?",
+          "start": 231.84,
+          "end": 241.92
+        },
+        {
+          "id": "restaurant-023",
+          "ko": "다 맛있어요, 감사합니다.",
+          "en": "Everything's great, thanks.",
+          "start": 241.92,
+          "end": 252.24
+        },
+        {
+          "id": "restaurant-024",
+          "ko": "이거 저희가 주문한 거 아니에요.",
+          "en": "I don't think we ordered this.",
+          "start": 252.24,
+          "end": 264.28
+        },
+        {
+          "id": "restaurant-025",
+          "ko": "음식이 아직 안 나왔어요.",
+          "en": "Our food hasn't come out yet.",
+          "start": 264.28,
+          "end": 275.48
+        },
+        {
+          "id": "restaurant-026",
+          "ko": "앞접시 좀 주시겠어요?",
+          "en": "Could we get a couple of extra plates?",
+          "start": 275.48,
+          "end": 287.76
+        },
+        {
+          "id": "restaurant-027",
+          "ko": "냅킨 좀 더 주시겠어요?",
+          "en": "Could we get some more napkins?",
+          "start": 287.76,
+          "end": 300.12
+        },
+        {
+          "id": "restaurant-028",
+          "ko": "이거 리필 돼요?",
+          "en": "Can I get a refill on this?",
+          "start": 300.12,
+          "end": 312.2
+        },
+        {
+          "id": "restaurant-029",
+          "ko": "아직 먹고 있어요.",
+          "en": "I'm still working on it.",
+          "start": 312.2,
+          "end": 322.92
+        },
+        {
+          "id": "restaurant-030",
+          "ko": "다 먹었어요, 가져가셔도 돼요.",
+          "en": "I'm done, you can take it.",
+          "start": 322.92,
+          "end": 335.0
+        },
+        {
+          "id": "restaurant-031",
+          "ko": "남은 거 포장해 주실 수 있나요?",
+          "en": "Could I get a box for this?",
+          "start": 335.0,
+          "end": 346.44
+        },
+        {
+          "id": "restaurant-032",
+          "ko": "디저트 메뉴 보여 드릴까요?",
+          "en": "Would you like to see the dessert menu?",
+          "start": 346.44,
+          "end": 358.2
+        },
+        {
+          "id": "restaurant-033",
+          "ko": "배불러요.",
+          "en": "I'm stuffed.",
+          "start": 358.2,
+          "end": 368.04
+        },
+        {
+          "id": "restaurant-034",
+          "ko": "계산서 주세요.",
+          "en": "Could we get the check, please?",
+          "start": 368.04,
+          "end": 378.76
+        },
+        {
+          "id": "restaurant-035",
+          "ko": "따로 계산할게요.",
+          "en": "Can we pay separately?",
+          "start": 378.76,
+          "end": 388.88
+        },
+        {
+          "id": "restaurant-036",
+          "ko": "오늘은 제가 살게요.",
+          "en": "It's on me today.",
+          "start": 388.88,
+          "end": 399.96
+        },
+        {
+          "id": "restaurant-037",
+          "ko": "반반 내자.",
+          "en": "Let's split it.",
+          "start": 399.96,
+          "end": 408.4
+        },
+        {
+          "id": "restaurant-038",
+          "ko": "팁 포함인가요?",
+          "en": "Is the tip included?",
+          "start": 408.4,
+          "end": 419.4
+        },
+        {
+          "id": "restaurant-039",
+          "ko": "거스름돈은 괜찮아요.",
+          "en": "Keep the change.",
+          "start": 419.4,
+          "end": 429.12
+        },
+        {
+          "id": "restaurant-040",
+          "ko": "정말 맛있게 먹었어요.",
+          "en": "That was delicious.",
+          "start": 429.12,
+          "end": 439.96
+        }
+      ]
+    },
+    {
+      "id": "airport",
+      "title": "공항·비행기에서",
+      "audio": "audio/airport.mp3",
+      "duration": 439.76,
+      "sentences": [
+        {
+          "id": "airport-001",
+          "ko": "체크인하려고요.",
+          "en": "I'd like to check in.",
+          "start": 0.0,
+          "end": 9.28
+        },
+        {
+          "id": "airport-002",
+          "ko": "여권 좀 보여 주시겠어요?",
+          "en": "Can I see your passport?",
+          "start": 9.28,
+          "end": 21.12
+        },
+        {
+          "id": "airport-003",
+          "ko": "창가 자리로 주세요.",
+          "en": "Could I get a window seat?",
+          "start": 21.12,
+          "end": 32.8
+        },
+        {
+          "id": "airport-004",
+          "ko": "통로 쪽 자리로 주세요.",
+          "en": "An aisle seat, please.",
+          "start": 32.8,
+          "end": 43.84
+        },
+        {
+          "id": "airport-005",
+          "ko": "일행이랑 같이 앉을 수 있나요?",
+          "en": "Can we sit together?",
+          "start": 43.84,
+          "end": 55.56
+        },
+        {
+          "id": "airport-006",
+          "ko": "부치실 짐 있으세요?",
+          "en": "Are you checking any bags?",
+          "start": 55.56,
+          "end": 67.8
+        },
+        {
+          "id": "airport-007",
+          "ko": "하나만 부칠게요.",
+          "en": "Just one bag.",
+          "start": 67.8,
+          "end": 77.84
+        },
+        {
+          "id": "airport-008",
+          "ko": "이거 기내에 들고 타도 되나요?",
+          "en": "Can I bring this on board?",
+          "start": 77.84,
+          "end": 88.96
+        },
+        {
+          "id": "airport-009",
+          "ko": "짐 무게가 초과됐어요.",
+          "en": "Your bag is overweight.",
+          "start": 88.96,
+          "end": 100.0
+        },
+        {
+          "id": "airport-010",
+          "ko": "추가 요금이 얼마예요?",
+          "en": "How much is the fee?",
+          "start": 100.0,
+          "end": 110.36
+        },
+        {
+          "id": "airport-011",
+          "ko": "몇 번 게이트예요?",
+          "en": "What gate is it?",
+          "start": 110.36,
+          "end": 120.72
+        },
+        {
+          "id": "airport-012",
+          "ko": "탑승은 몇 시에 시작해요?",
+          "en": "What time does boarding start?",
+          "start": 120.72,
+          "end": 132.64
+        },
+        {
+          "id": "airport-013",
+          "ko": "비행기가 지연됐어요.",
+          "en": "The flight's been delayed.",
+          "start": 132.64,
+          "end": 142.84
+        },
+        {
+          "id": "airport-014",
+          "ko": "비행기를 놓쳤어요.",
+          "en": "I missed my flight.",
+          "start": 142.84,
+          "end": 152.72
+        },
+        {
+          "id": "airport-015",
+          "ko": "더 늦은 비행기 있나요?",
+          "en": "Is there a later flight?",
+          "start": 152.72,
+          "end": 163.28
+        },
+        {
+          "id": "airport-016",
+          "ko": "환승하려면 어디로 가야 해요?",
+          "en": "Where do I go for my connecting flight?",
+          "start": 163.28,
+          "end": 174.68
+        },
+        {
+          "id": "airport-017",
+          "ko": "노트북은 꺼내 주세요.",
+          "en": "Please take out your laptop.",
+          "start": 174.68,
+          "end": 185.36
+        },
+        {
+          "id": "airport-018",
+          "ko": "주머니에 있는 거 다 꺼내 주세요.",
+          "en": "Please empty your pockets.",
+          "start": 185.36,
+          "end": 196.2
+        },
+        {
+          "id": "airport-019",
+          "ko": "방문 목적이 뭔가요?",
+          "en": "What's the purpose of your visit?",
+          "start": 196.2,
+          "end": 207.6
+        },
+        {
+          "id": "airport-020",
+          "ko": "여행 왔어요.",
+          "en": "I'm here on vacation.",
+          "start": 207.6,
+          "end": 218.16
+        },
+        {
+          "id": "airport-021",
+          "ko": "출장 왔어요.",
+          "en": "I'm here on business.",
+          "start": 218.16,
+          "end": 228.24
+        },
+        {
+          "id": "airport-022",
+          "ko": "얼마나 머무세요?",
+          "en": "How long are you staying?",
+          "start": 228.24,
+          "end": 238.4
+        },
+        {
+          "id": "airport-023",
+          "ko": "일주일이요.",
+          "en": "For a week.",
+          "start": 238.4,
+          "end": 247.92
+        },
+        {
+          "id": "airport-024",
+          "ko": "어디서 묵으세요?",
+          "en": "Where are you staying?",
+          "start": 247.92,
+          "end": 258.88
+        },
+        {
+          "id": "airport-025",
+          "ko": "시내에 있는 호텔이요.",
+          "en": "At a hotel downtown.",
+          "start": 258.88,
+          "end": 270.2
+        },
+        {
+          "id": "airport-026",
+          "ko": "신고할 물건 있으세요?",
+          "en": "Anything to declare?",
+          "start": 270.2,
+          "end": 281.52
+        },
+        {
+          "id": "airport-027",
+          "ko": "없어요.",
+          "en": "No, nothing.",
+          "start": 281.52,
+          "end": 291.76
+        },
+        {
+          "id": "airport-028",
+          "ko": "짐 찾는 곳이 어디예요?",
+          "en": "Where's baggage claim?",
+          "start": 291.76,
+          "end": 303.6
+        },
+        {
+          "id": "airport-029",
+          "ko": "제 짐이 안 나왔어요.",
+          "en": "My bag never came out.",
+          "start": 303.6,
+          "end": 314.52
+        },
+        {
+          "id": "airport-030",
+          "ko": "가방이 망가졌어요.",
+          "en": "My suitcase got damaged.",
+          "start": 314.52,
+          "end": 326.4
+        },
+        {
+          "id": "airport-031",
+          "ko": "시내 가는 버스 어디서 타요?",
+          "en": "Where can I catch a bus downtown?",
+          "start": 326.4,
+          "end": 337.52
+        },
+        {
+          "id": "airport-032",
+          "ko": "택시 타는 곳이 어디예요?",
+          "en": "Where's the taxi stand?",
+          "start": 337.52,
+          "end": 348.32
+        },
+        {
+          "id": "airport-033",
+          "ko": "환전은 어디서 해요?",
+          "en": "Where can I exchange money?",
+          "start": 348.32,
+          "end": 359.32
+        },
+        {
+          "id": "airport-034",
+          "ko": "닭고기랑 생선 중에 뭘로 드릴까요?",
+          "en": "Chicken or fish?",
+          "start": 359.32,
+          "end": 371.0
+        },
+        {
+          "id": "airport-035",
+          "ko": "닭고기로 주세요.",
+          "en": "Chicken, please.",
+          "start": 371.0,
+          "end": 381.16
+        },
+        {
+          "id": "airport-036",
+          "ko": "담요 하나 더 주시겠어요?",
+          "en": "Could I get another blanket?",
+          "start": 381.16,
+          "end": 391.68
+        },
+        {
+          "id": "airport-037",
+          "ko": "죄송한데 좀 지나갈게요.",
+          "en": "Excuse me, can I squeeze by?",
+          "start": 391.68,
+          "end": 403.96
+        },
+        {
+          "id": "airport-038",
+          "ko": "의자 조금만 앞으로 해 주시겠어요?",
+          "en": "Would you mind moving your seat up a bit?",
+          "start": 403.96,
+          "end": 416.64
+        },
+        {
+          "id": "airport-039",
+          "ko": "여기 제 자리인 것 같은데요.",
+          "en": "I think you're in my seat.",
+          "start": 416.64,
+          "end": 428.28
+        },
+        {
+          "id": "airport-040",
+          "ko": "이거 올리는 것 좀 도와주시겠어요?",
+          "en": "Could you help me put this up there?",
+          "start": 428.28,
+          "end": 439.76
+        }
+      ]
+    },
+    {
+      "id": "hotel",
+      "title": "호텔에서",
+      "audio": "audio/hotel.mp3",
+      "duration": 427.08,
+      "sentences": [
+        {
+          "id": "hotel-001",
+          "ko": "체크인하려고요. 김으로 예약했어요.",
+          "en": "Hi, I'm checking in. It's under Kim.",
+          "start": 0.0,
+          "end": 15.16
+        },
+        {
+          "id": "hotel-002",
+          "ko": "체크인은 몇 시부터예요?",
+          "en": "What time is check-in?",
+          "start": 15.16,
+          "end": 26.2
+        },
+        {
+          "id": "hotel-003",
+          "ko": "일찍 체크인할 수 있나요?",
+          "en": "Is early check-in possible?",
+          "start": 26.2,
+          "end": 37.4
+        },
+        {
+          "id": "hotel-004",
+          "ko": "짐 좀 맡겨도 될까요?",
+          "en": "Can I leave my bags here?",
+          "start": 37.4,
+          "end": 48.92
+        },
+        {
+          "id": "hotel-005",
+          "ko": "조식 포함인가요?",
+          "en": "Is breakfast included?",
+          "start": 48.92,
+          "end": 59.52
+        },
+        {
+          "id": "hotel-006",
+          "ko": "조식은 몇 시에 해요?",
+          "en": "What time is breakfast?",
+          "start": 59.52,
+          "end": 71.36
+        },
+        {
+          "id": "hotel-007",
+          "ko": "와이파이는 어떻게 연결해요?",
+          "en": "How do I get on the Wi-Fi?",
+          "start": 71.36,
+          "end": 82.4
+        },
+        {
+          "id": "hotel-008",
+          "ko": "제 방이 몇 층이에요?",
+          "en": "What floor is my room on?",
+          "start": 82.4,
+          "end": 94.72
+        },
+        {
+          "id": "hotel-009",
+          "ko": "엘리베이터가 어디 있어요?",
+          "en": "Where are the elevators?",
+          "start": 94.72,
+          "end": 105.12
+        },
+        {
+          "id": "hotel-010",
+          "ko": "방 카드키가 안 돼요.",
+          "en": "My key card isn't working.",
+          "start": 105.12,
+          "end": 116.52
+        },
+        {
+          "id": "hotel-011",
+          "ko": "키를 방에 두고 나왔어요.",
+          "en": "I locked myself out.",
+          "start": 116.52,
+          "end": 127.56
+        },
+        {
+          "id": "hotel-012",
+          "ko": "에어컨이 안 돼요.",
+          "en": "The AC isn't working.",
+          "start": 127.56,
+          "end": 138.08
+        },
+        {
+          "id": "hotel-013",
+          "ko": "뜨거운 물이 안 나와요.",
+          "en": "There's no hot water.",
+          "start": 138.08,
+          "end": 148.04
+        },
+        {
+          "id": "hotel-014",
+          "ko": "수건 좀 더 주실 수 있나요?",
+          "en": "Could I get some extra towels?",
+          "start": 148.04,
+          "end": 160.72
+        },
+        {
+          "id": "hotel-015",
+          "ko": "방 청소 좀 부탁드려요.",
+          "en": "Could I get my room cleaned?",
+          "start": 160.72,
+          "end": 171.04
+        },
+        {
+          "id": "hotel-016",
+          "ko": "옆방이 너무 시끄러워요.",
+          "en": "The room next door is really loud.",
+          "start": 171.04,
+          "end": 181.88
+        },
+        {
+          "id": "hotel-017",
+          "ko": "방을 바꿀 수 있을까요?",
+          "en": "Would it be possible to switch rooms?",
+          "start": 181.88,
+          "end": 193.48
+        },
+        {
+          "id": "hotel-018",
+          "ko": "하루 더 묵을 수 있나요?",
+          "en": "Can I stay one more night?",
+          "start": 193.48,
+          "end": 203.6
+        },
+        {
+          "id": "hotel-019",
+          "ko": "체크아웃은 몇 시예요?",
+          "en": "What time is check-out?",
+          "start": 203.6,
+          "end": 214.0
+        },
+        {
+          "id": "hotel-020",
+          "ko": "늦게 체크아웃해도 될까요?",
+          "en": "Could I get a late check-out?",
+          "start": 214.0,
+          "end": 225.76
+        },
+        {
+          "id": "hotel-021",
+          "ko": "체크아웃할게요.",
+          "en": "I'd like to check out.",
+          "start": 225.76,
+          "end": 235.8
+        },
+        {
+          "id": "hotel-022",
+          "ko": "이건 무슨 요금이에요?",
+          "en": "What's this charge for?",
+          "start": 235.8,
+          "end": 246.52
+        },
+        {
+          "id": "hotel-023",
+          "ko": "미니바는 안 썼어요.",
+          "en": "I didn't use the minibar.",
+          "start": 246.52,
+          "end": 256.96
+        },
+        {
+          "id": "hotel-024",
+          "ko": "영수증을 이메일로 보내 주시겠어요?",
+          "en": "Could you email me the receipt?",
+          "start": 256.96,
+          "end": 269.24
+        },
+        {
+          "id": "hotel-025",
+          "ko": "택시 좀 불러 주시겠어요?",
+          "en": "Could you call me a cab?",
+          "start": 269.24,
+          "end": 280.16
+        },
+        {
+          "id": "hotel-026",
+          "ko": "근처에 괜찮은 식당 있어요?",
+          "en": "Are there any good places to eat around here?",
+          "start": 280.16,
+          "end": 292.16
+        },
+        {
+          "id": "hotel-027",
+          "ko": "거기 걸어갈 수 있어요?",
+          "en": "Is it within walking distance?",
+          "start": 292.16,
+          "end": 303.28
+        },
+        {
+          "id": "hotel-028",
+          "ko": "공항 셔틀 있나요?",
+          "en": "Do you have an airport shuttle?",
+          "start": 303.28,
+          "end": 315.52
+        },
+        {
+          "id": "hotel-029",
+          "ko": "모닝콜 해 주실 수 있나요?",
+          "en": "Could I get a wake-up call?",
+          "start": 315.52,
+          "end": 326.8
+        },
+        {
+          "id": "hotel-030",
+          "ko": "7시에 부탁드려요.",
+          "en": "At seven, please.",
+          "start": 326.8,
+          "end": 337.8
+        },
+        {
+          "id": "hotel-031",
+          "ko": "금고는 어떻게 써요?",
+          "en": "How does the safe work?",
+          "start": 337.8,
+          "end": 348.6
+        },
+        {
+          "id": "hotel-032",
+          "ko": "주차는 어디에 하면 돼요?",
+          "en": "Where can I park?",
+          "start": 348.6,
+          "end": 359.24
+        },
+        {
+          "id": "hotel-033",
+          "ko": "수영장은 몇 시까지 해요?",
+          "en": "How late is the pool open?",
+          "start": 359.24,
+          "end": 369.88
+        },
+        {
+          "id": "hotel-034",
+          "ko": "충전기 좀 빌릴 수 있나요?",
+          "en": "Do you have a charger I could borrow?",
+          "start": 369.88,
+          "end": 381.72
+        },
+        {
+          "id": "hotel-035",
+          "ko": "짐 옮기는 것 좀 도와주실 수 있나요?",
+          "en": "Could someone help me with my bags?",
+          "start": 381.72,
+          "end": 393.72
+        },
+        {
+          "id": "hotel-036",
+          "ko": "방에 뭘 두고 왔어요.",
+          "en": "I left something in my room.",
+          "start": 393.72,
+          "end": 405.76
+        },
+        {
+          "id": "hotel-037",
+          "ko": "체크아웃 후에 짐 맡길 수 있나요?",
+          "en": "Can you hold my bags after check-out?",
+          "start": 405.76,
+          "end": 417.24
+        },
+        {
+          "id": "hotel-038",
+          "ko": "잘 지내다 가요.",
+          "en": "I really enjoyed my stay.",
+          "start": 417.24,
+          "end": 427.08
+        }
+      ]
+    },
+    {
+      "id": "smalltalk",
+      "title": "인사·안부·맞장구",
+      "audio": "audio/smalltalk.mp3",
+      "duration": 418.6,
+      "sentences": [
+        {
+          "id": "smalltalk-001",
+          "ko": "잘 지냈어요?",
+          "en": "How have you been?",
+          "start": 0.0,
+          "end": 9.52
+        },
+        {
+          "id": "smalltalk-002",
+          "ko": "잘 지냈어요. 당신은요?",
+          "en": "Good, how about you?",
+          "start": 9.52,
+          "end": 20.08
+        },
+        {
+          "id": "smalltalk-003",
+          "ko": "그럭저럭 지내요.",
+          "en": "Not bad.",
+          "start": 20.08,
+          "end": 30.88
+        },
+        {
+          "id": "smalltalk-004",
+          "ko": "요즘 어떻게 지내요?",
+          "en": "What have you been up to?",
+          "start": 30.88,
+          "end": 41.84
+        },
+        {
+          "id": "smalltalk-005",
+          "ko": "오랜만이에요!",
+          "en": "Long time no see!",
+          "start": 41.84,
+          "end": 51.96
+        },
+        {
+          "id": "smalltalk-006",
+          "ko": "하나도 안 변했네요.",
+          "en": "You haven't changed a bit.",
+          "start": 51.96,
+          "end": 62.56
+        },
+        {
+          "id": "smalltalk-007",
+          "ko": "주말 잘 보냈어요?",
+          "en": "How was your weekend?",
+          "start": 62.56,
+          "end": 73.08
+        },
+        {
+          "id": "smalltalk-008",
+          "ko": "그냥 집에서 쉬었어요.",
+          "en": "I just stayed in and relaxed.",
+          "start": 73.08,
+          "end": 84.88
+        },
+        {
+          "id": "smalltalk-009",
+          "ko": "만나서 반가워요.",
+          "en": "Nice to meet you.",
+          "start": 84.88,
+          "end": 95.56
+        },
+        {
+          "id": "smalltalk-010",
+          "ko": "말씀 많이 들었어요.",
+          "en": "I've heard a lot about you.",
+          "start": 95.56,
+          "end": 105.32
+        },
+        {
+          "id": "smalltalk-011",
+          "ko": "무슨 일 하세요?",
+          "en": "What do you do?",
+          "start": 105.32,
+          "end": 115.64
+        },
+        {
+          "id": "smalltalk-012",
+          "ko": "어디 출신이에요?",
+          "en": "Where are you from?",
+          "start": 115.64,
+          "end": 126.12
+        },
+        {
+          "id": "smalltalk-013",
+          "ko": "여기 산 지 얼마나 됐어요?",
+          "en": "How long have you lived here?",
+          "start": 126.12,
+          "end": 137.8
+        },
+        {
+          "id": "smalltalk-014",
+          "ko": "쉬는 날엔 뭐 해요?",
+          "en": "What do you do for fun?",
+          "start": 137.8,
+          "end": 147.88
+        },
+        {
+          "id": "smalltalk-015",
+          "ko": "날씨 진짜 좋네요.",
+          "en": "Beautiful day, isn't it?",
+          "start": 147.88,
+          "end": 159.12
+        },
+        {
+          "id": "smalltalk-016",
+          "ko": "오늘 진짜 덥네요.",
+          "en": "It's so hot today.",
+          "start": 159.12,
+          "end": 169.52
+        },
+        {
+          "id": "smalltalk-017",
+          "ko": "요즘 바빠요?",
+          "en": "Have you been busy lately?",
+          "start": 169.52,
+          "end": 180.2
+        },
+        {
+          "id": "smalltalk-018",
+          "ko": "정신없이 바빴어요.",
+          "en": "It's been crazy busy.",
+          "start": 180.2,
+          "end": 191.24
+        },
+        {
+          "id": "smalltalk-019",
+          "ko": "괜찮아요? 무슨 일 있어요?",
+          "en": "Is everything okay?",
+          "start": 191.24,
+          "end": 203.52
+        },
+        {
+          "id": "smalltalk-020",
+          "ko": "잘됐네요!",
+          "en": "That's great!",
+          "start": 203.52,
+          "end": 212.72
+        },
+        {
+          "id": "smalltalk-021",
+          "ko": "그것 참 안됐네요.",
+          "en": "I'm sorry to hear that.",
+          "start": 212.72,
+          "end": 222.52
+        },
+        {
+          "id": "smalltalk-022",
+          "ko": "진짜요?",
+          "en": "Really?",
+          "start": 222.52,
+          "end": 231.76
+        },
+        {
+          "id": "smalltalk-023",
+          "ko": "말도 안 돼!",
+          "en": "No way!",
+          "start": 231.76,
+          "end": 240.76
+        },
+        {
+          "id": "smalltalk-024",
+          "ko": "무슨 말인지 알아요.",
+          "en": "I know what you mean.",
+          "start": 240.76,
+          "end": 251.44
+        },
+        {
+          "id": "smalltalk-025",
+          "ko": "완전 맞아요.",
+          "en": "Totally.",
+          "start": 251.44,
+          "end": 261.12
+        },
+        {
+          "id": "smalltalk-026",
+          "ko": "잘 모르겠어요.",
+          "en": "I'm not sure.",
+          "start": 261.12,
+          "end": 271.56
+        },
+        {
+          "id": "smalltalk-027",
+          "ko": "다시 한번 말해 주실래요?",
+          "en": "Sorry, could you say that again?",
+          "start": 271.56,
+          "end": 282.64
+        },
+        {
+          "id": "smalltalk-028",
+          "ko": "조금만 천천히 말해 주실래요?",
+          "en": "Could you speak a little slower?",
+          "start": 282.64,
+          "end": 293.84
+        },
+        {
+          "id": "smalltalk-029",
+          "ko": "그게 무슨 뜻이에요?",
+          "en": "What does that mean?",
+          "start": 293.84,
+          "end": 304.24
+        },
+        {
+          "id": "smalltalk-030",
+          "ko": "요즘 재밌게 본 거 있어요?",
+          "en": "Have you watched anything good lately?",
+          "start": 304.24,
+          "end": 316.2
+        },
+        {
+          "id": "smalltalk-031",
+          "ko": "언제 커피 한잔해요.",
+          "en": "We should grab coffee sometime.",
+          "start": 316.2,
+          "end": 328.52
+        },
+        {
+          "id": "smalltalk-032",
+          "ko": "번호 좀 알려 줄래요?",
+          "en": "Can I get your number?",
+          "start": 328.52,
+          "end": 339.8
+        },
+        {
+          "id": "smalltalk-033",
+          "ko": "문자할게요.",
+          "en": "I'll text you.",
+          "start": 339.8,
+          "end": 348.96
+        },
+        {
+          "id": "smalltalk-034",
+          "ko": "이제 가 봐야겠어요.",
+          "en": "I should get going.",
+          "start": 348.96,
+          "end": 359.4
+        },
+        {
+          "id": "smalltalk-035",
+          "ko": "얘기 즐거웠어요.",
+          "en": "It was nice talking to you.",
+          "start": 359.4,
+          "end": 370.12
+        },
+        {
+          "id": "smalltalk-036",
+          "ko": "좋은 하루 보내세요.",
+          "en": "Have a good day.",
+          "start": 370.12,
+          "end": 379.12
+        },
+        {
+          "id": "smalltalk-037",
+          "ko": "주말 잘 보내세요.",
+          "en": "Have a good weekend.",
+          "start": 379.12,
+          "end": 388.72
+        },
+        {
+          "id": "smalltalk-038",
+          "ko": "조심히 들어가요.",
+          "en": "Get home safe.",
+          "start": 388.72,
+          "end": 399.12
+        },
+        {
+          "id": "smalltalk-039",
+          "ko": "나중에 봐요.",
+          "en": "See you later.",
+          "start": 399.12,
+          "end": 408.44
+        },
+        {
+          "id": "smalltalk-040",
+          "ko": "정말 고마워요.",
+          "en": "Thanks, I really appreciate it.",
+          "start": 408.44,
+          "end": 418.6
+        }
+      ]
+    }
+  ]
+}
